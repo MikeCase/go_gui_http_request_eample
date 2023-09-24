@@ -63,7 +63,7 @@ func main() {
 	a := app.New()
 	w := a.NewWindow("HW App")
 	w.Resize(fyne.NewSize(640, 480))
-	
+
 	hello := widget.NewLabel("")
 	w.SetContent(container.NewVBox(
 		hello,
